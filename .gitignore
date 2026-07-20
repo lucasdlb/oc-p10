@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE
+.idea/
+
+# Generated project artifacts
+data/**
+!data/.gitkeep
+!data/interim/
+!data/interim/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+!data/reports/
+!data/reports/.gitkeep
+
+# Local dataset
+mri_dataset_brain_cancer_oc/
+
+# Notebook runtime files
+.ipynb_checkpoints/
